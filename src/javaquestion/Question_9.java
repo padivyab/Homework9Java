@@ -10,13 +10,13 @@ public class Question_9 {
 
     public static void main(String[] args) {
 
-        HashMap<String,Integer> lan=new HashMap<String,Integer>();
-        lan.put("C",1);
-        lan.put("Python",2);
-        lan.put("PHP",3);
-        lan.put("Android",4);
-        lan.put("C++",5);
-        lan.put("Sql",6);
+        HashMap<String,Integer> people=new HashMap<String,Integer>();
+        people.put("C",1);
+        people.put("Python",2);
+        people.put("PHP",3);
+        people.put("Android",4);
+        people.put("C++",5);
+        people.put("Sql",6);
 
         System.out.println("Output :");
 
@@ -25,9 +25,9 @@ public class Question_9 {
             System.out.println(e.getKey()+" "+e.getValue());
 
         }*/
-        for(String i:lan.keySet())
+        for(String i:people.keySet())
         {
-            System.out.println(i+" "+lan.get(i));
+            System.out.println(i+" "+people.get(i));
         }
 
     }
