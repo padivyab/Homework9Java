@@ -10,14 +10,14 @@ public class Question_10 {
     public static void main(String[] args) {
 
         HashMap<String,String> zone1=new HashMap<String,String>();
-        zone1.put("tube1","station1,station2,station3");
-        zone1.put("tube2","station2");
-        zone1.put("tube3","station3");
-        zone1.put("tube4","station4");
+        zone1.put("BakerStreet","Metrolitan,Circle line,Central line,Hammersmith & City");
+        zone1.put("Barbican","Metrolitan,Circle line,Central line,Hammersmith & City");
+        zone1.put("Moorgate","Metrolitan,Circle line,Central line,Hammersmith & City");
+        zone1.put("Liverpool Street","Metrolitan,Circle line,Central line,Hammersmith & City");
 
         //System.out.println("Zone1"+zone1);
 
-        String key = "tube1";
+        String key = "BakerStreet";
         System.out.println("At this station these trains will stop :");
 
         for(Map.Entry<String,String> stations : zone1.entrySet())
